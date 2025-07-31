@@ -6,8 +6,8 @@ import requests
 url = "https://www.livesport.com/team/ac-milan/8Sa8HInO/"
 html = requests.get(url).text
 bs = BeautifulSoup(html, "html.parser")
-
 bs1 = bs.find_all("span", {"class" :"wcl-simpleText_Asp-0 wcl-scores-simpleText-01_pV2Wk"})
+
 driver = webdriver.Chrome()
 driver.implicitly_wait(3)
 driver.get("https://www.livesport.com/team/ac-milan/8Sa8HInO/")
