@@ -181,15 +181,21 @@ ROM의 주요 종류:
 
 # 캐시 친화적: 순차 접근
 arr = [i for i in range(1000000)]
+
 for i in arr:  
+
   pass
 
 # 캐시 비효율적: 랜덤 접근
-import random
+**import random**
+
 indices = list(range(len(arr)))
+
 random.shuffle(indices)
-for i in indices:  
-  _ = arr[i] 
+
+for i in indices:
+
+  _ = arr[i]
 
 
 ## 📌 요약
