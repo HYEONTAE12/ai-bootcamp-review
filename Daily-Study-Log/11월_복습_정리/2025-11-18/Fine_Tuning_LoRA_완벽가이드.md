@@ -71,6 +71,7 @@ W_new = W_original + A × B
 # W_original은 freeze (얼림)
 ```
 
+
 ### 시각적 비유
 
 **벽(모델) + 스티커(LoRA) 비유:**
